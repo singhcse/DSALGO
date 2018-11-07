@@ -6,7 +6,7 @@ public class Day2Practice {
 
 	// Recursion
 	public static void printFromFirst(int[] arr, int n) {
-		if (arr.length - 1 == n)
+		if (arr.length == n)
 			return;
 		System.out.print(arr[n] + " ");
 		printFromFirst(arr, n + 1);
